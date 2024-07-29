@@ -1,0 +1,42 @@
+1.What is the default value  of array for different data types.
+
+ANS:-byte ,short,int ,long=0
+float,double=0.0
+boolean=false
+Any object=null
+
+2.ans:-No we can’t pass the negative number as an array size.if we pass a negative number in an array size we will not get compiler error.Instead  we will get the NegativeArraySizeException at run time.
+3.Array is an object in java.so Array is stored in heap memory in jvm.
+To create an Array, contiguous memory is required. It ispossible in JVM that the memory is available to accommodate Array but memory available is not contiguous.
+
+The Array is a static data structure. It is of fixed size. We can not increase or decrease size of the Array after creation.
+4.An array without any name (or reference) is called an Anonymous
+Array. They are useful for the scenarios where we need one time
+usage of Array.
+Example:-new int[]{1,2,3,4};
+   new String[]{“one”,”two”,”three”};
+5.Using for loop
+Using for each loop
+
+6.An array is an object that holds a fixed number of values of the same type.
+The length variable in an array returns the length of an array i.e. number of elements stored in an array.
+Once arrays are initialized, its length cannot be changed, so the length variable can directly be used to get the length of an array.The length variable is used only for an array.
+
+Ex:-public class ArrayLengthTest{
+Public static void main(String args[]){
+Int array[]={1,2,3,4,5,6,7};
+System.out.println(“length of an array is:”+array.length);
+}
+}
+
+length():-
+
+The length() method is a static method of String class.
+The length() returns the length of a string object i.e. the number of characters stored in an object.String class uses this method because the length of a string can be modified using the various operations on an object .The String class internally uses a char[] array that it does not expose to the outside world.
+ex:-public class Test {
+public static void main(String args[]) {
+String str = "Welcome to Tutorials Point";
+System.out.println("Length of String using length() method is:" + str.length());
+}
+}
+
